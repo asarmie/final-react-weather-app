@@ -1,4 +1,36 @@
 .weather {
-  border: 1px solid gray;
+  border: 1px solid lightgray;
   border-radius: 10px;
+  padding: 20px;
+  margin: 30px auto;
+  font-family: "Poppins", sans-serif;
+}
+.weather form {
+  padding-bottom: 40px;
+}
+.weather ul {
+  margin: 0;
+  padding: 0;
+}
+.weather li {
+  list-style: none;
+}
+.cityHeader {
+  font-size: 35px;
+  padding-bottom: 30px;
+}
+.tempParameters {
+  font-size: 16px;
+}
+.temperature {
+  text-align: center;
+  padding: 20px;
+  font-size: 35px;
+}
+.iconPicture {
+  text-align: center;
+  padding-top: 20px;
+}
+.forecast {
+  text-align: center;
 }
