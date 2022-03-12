@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather city="London" />
+        <Weather defaultCity="London" />
         <footer>
           <a
             href="https://elated-spence-89c00b.netlify.app/"
