@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function FormattedDate(props) {
-  console.log(props.actualDate);
   let actualDay = [
     "Sunday",
     "Monday",
@@ -21,6 +20,6 @@ export default function FormattedDate(props) {
   if (minute < 10) {
     minute = `0${minute}`;
   }
-  console.log(minute);
+
   return `${day} ${hour}:${minute}`;
 }
