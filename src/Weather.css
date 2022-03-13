@@ -24,13 +24,16 @@
 }
 .temperature {
   text-align: center;
-  font-size: 35px;
   font-size: 40px;
 }
 .iconPicture {
   text-align: center;
-  padding-top: 10px;
 }
 .forecast {
   text-align: center;
+}
+.units {
+  font-size: 20px;
+  position: relative;
+  bottom: 15px;
 }
