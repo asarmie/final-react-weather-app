@@ -32,7 +32,7 @@ export default function WeatherInfo(props) {
         <div className="col-5">
           <ul>
             <li className="iconPicture">
-              <img src={props.data.iconPic} />
+              <img src={props.data.iconPic} alt="weather" />
             </li>
           </ul>
         </div>
