@@ -3,14 +3,14 @@ import FormattedDate from "./FormattedDate";
 
 export default function WeatherInfo(props) {
   return (
-    <div className="weatherInfo">
+    <div className="WeatherInfo">
       <div className="row">
         <div className="col-7">
+          <h1 className="cityHeader">{props.data.city}</h1>
           <ul>
-            <li className="cityHeader">{props.data.cityName}</li>
             <div className="tempParameters">
               <li>
-                <FormattedDate date={props.data.date} />
+                <FormattedDate actualDate={props.data.date} />
               </li>
               <li className="text-uppercase">{props.data.description}</li>
               <li>Humidity: {props.data.humidity} %</li>
@@ -23,7 +23,9 @@ export default function WeatherInfo(props) {
             <li className="temperature">
               {Math.round(props.data.temperature)}°C
             </li>
-            <li className="iconPicture">icon</li>
+            <li className="iconPicture">
+              <img src={props.data.iconPic} />
+            </li>
           </ul>
         </div>
       </div>
