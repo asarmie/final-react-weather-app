@@ -37,18 +37,6 @@ export default function WeatherInfo(props) {
           </ul>
         </div>
       </div>
-      <div className="forecast">
-        <div className="row pt-5">
-          <div className="col-4">Monday 17C</div>
-          <div className="col-4">Monday 17C</div>
-          <div className="col-4">Monday 17C</div>
-        </div>
-        <div className="row pt-3">
-          <div className="col-4">Monday 17C</div>
-          <div className="col-4">Monday 17C</div>
-          <div className="col-4">Monday 17C</div>
-        </div>
-      </div>
     </div>
   );
 }

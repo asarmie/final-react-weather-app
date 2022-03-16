@@ -16,15 +16,15 @@
   list-style: none;
 }
 .cityHeader {
-  font-size: 40px;
-  padding-bottom: 30px;
+  font-size: 50px;
+  padding-bottom: 20px;
 }
 .tempParameters {
-  font-size: 16px;
+  font-size: 18px;
 }
 .temperature {
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
 }
 .iconPicture {
   text-align: center;
@@ -35,5 +35,8 @@
 .units {
   font-size: 20px;
   position: relative;
-  bottom: 15px;
+  bottom: 23px;
+}
+.forecast {
+  font-size: 18px;
 }
