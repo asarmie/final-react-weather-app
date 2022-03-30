@@ -3,11 +3,11 @@ import React from "react";
 export default function WeatherForecastDay(props) {
   function maxTemperature() {
     let temperature = Math.round(props.data.temp.max);
-    return `${temperature}°C`;
+    return `${temperature}°F`;
   }
   function minTemperature() {
     let temperature = Math.round(props.data.temp.min);
-    return `${temperature}°C`;
+    return `${temperature}°F`;
   }
   function day() {
     let actualDay = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"];
